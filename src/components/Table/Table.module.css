@@ -1,0 +1,48 @@
+.tableWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.tableContainer {
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.02);
+    border-collapse: collapse;
+    color: black;
+    border-style: hidden;
+    min-width: 650px;
+    
+}
+
+.table th {
+    text-align: left;
+    border: 1px solid #f0f0f0;
+    background: #fafafa;
+    padding: 10px 15px;
+    min-width: 100px;
+}
+
+.table td {
+    border: 1px solid #f0f0f0;
+    padding: 10px 15px;
+}
+
+.sort {
+    float: right;
+    user-select: none;
+}
+
+.sort.active {
+    color: #1677ff;
+}
+
+.sort:hover {
+    cursor: pointer;
+}

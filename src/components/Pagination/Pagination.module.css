@@ -1,0 +1,27 @@
+.pagination {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px
+}
+
+.pages {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.pages li {
+    list-style: none;
+}
+
+.pages li.active {
+    color: #1677ff;
+    pointer-events: none;
+}
+
+.pages li:hover:not(.active) {
+    color: #1677ff;
+    cursor: pointer;
+}
